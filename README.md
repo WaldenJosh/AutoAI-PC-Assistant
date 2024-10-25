@@ -13,3 +13,12 @@ AutoAI-PC-Assistant will be a intelligent automation tool that leverages a large
 - **Error Handling**: Provides step-by-step task progression with feedback on success or failure.
 
 ---
+
+## Configuration
+
+To use the tool, you need to set up your API keys.
+
+1. Copy the `src/config_example.py` file to `src/config.py`:
+   ```bash
+   cp src/config_example.py src/config.py
+   

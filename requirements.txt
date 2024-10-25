@@ -1,0 +1,3 @@
+pywinauto
+opencv-python
+openai
