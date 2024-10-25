@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
         # Test sending an image with a prompt
         image_path = "test_image.png"  # Replace this with the actual image path
-        test_prompt_with_image = "Given the current screen, please describe the steps needed to open Windows setting and get to Windows Update. Describe this using only the keyboard as input."
+        test_prompt_with_image = "Given the current screen, please provide a simple python script that will use pywingui to open Windows settings a check for updates."
         response_with_image = llm_interface.send_prompt_with_image(
             test_prompt_with_image, image_path)
 
